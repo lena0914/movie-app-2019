@@ -1,0 +1,11 @@
+.movie {
+  background-color: white;
+  border: 1px solid #ececec;
+  width: 40%;
+  height: 200px;
+}
+
+.movie__img {
+  max-width: 20%;
+  height: 160px;
+}
