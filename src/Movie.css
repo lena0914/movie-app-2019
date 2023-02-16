@@ -1,11 +1,46 @@
 .movie {
   background-color: white;
   border: 1px solid #ececec;
-  width: 40%;
-  height: 200px;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  margin: 30px 90px;
+  padding: 10px;
+  box-shadow: 1px 1px 15px #bdbbc5;
 }
 
 .movie__img {
-  max-width: 20%;
+  max-width: 35%;
   height: 160px;
+  position: relative;
+  top: -25px;
+  left: 5px;
+}
+
+.movie__data {
+  padding: 10px;
+  margin: 0 15px 0;
+}
+
+.movie__title {
+  font-size: 18px;
+  color: #484747;
+}
+
+.genres {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding-left: 0;
+  font-size: 13px;
+}
+
+.genres__genre {
+  padding-right: 5px;
+  color: #c4c3c3;
+}
+
+.movie__summary {
+  font-size: 13px;
+  color: #afaeae;
 }

@@ -1,4 +1,17 @@
+body {
+  background-color: #eceff6;
+}
+
 .container {
-  background-color: #d5def5;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: cursive;
+}
+
+.loader {
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
